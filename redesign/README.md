@@ -1,62 +1,16 @@
-LMS Tutor Finder & Booking Redesign
-Overview
+# React + Vite
 
-This project redesigns the Tutor Finder and Find Tutor pages of an LMS into a single, modern platform that helps students find tutors easily and book sessions quickly.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Goal
+Currently, two official plugins are available:
 
-Create a high-conversion tutor discovery experience and a smooth, low-friction booking system using modern 2025 UI/UX standards.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Key Features
-Tutor Discovery:
+## React Compiler
 
-Simple search by subject, price, rating
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Clean landing page with search and trending subjects
+## Expanding the ESLint configuration
 
-Step-by-step tutor preference flow (subject, learning style, goal, availability)
-
-UI/UX Design (Figma):
-
-Clean and minimalist layout
-
-Consistent white, purple, and gold color theme
-
-Reusable components (cards, buttons, calendar)
-
-Accessible design with clear text and easy navigation
-
-
-
-Booking System:
-
-Fast 3-step booking flow
-
-Interactive calendar with time-zone detection
-
-Simple session details and price summary
-
-Clear booking confirmation page
-
-Frontend (React):
-
-Component-based structure
-
-React Hooks for state management
-
-Tailwind CSS–friendly design
-
-Smooth interactions and transitions
-
-Local Setup
-git clone [REPOSITORY_URL]
-cd [PROJECT_FOLDER]
-npm install
-npm start
-
-
-
-
-Figma Design
-
-Figma File: [Add your Figma link here]
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
