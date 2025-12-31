@@ -60,4 +60,4 @@ npm start
 
 Figma Design
 
-Figma File: [Add your Figma link here]
+Figma File: https://www.figma.com/design/BAELJGIuiORVMakwthCzqP/Tutor-Finder---Booking-Redesign?node-id=0-1&t=tlZw7DfwnElwgLyN-1
